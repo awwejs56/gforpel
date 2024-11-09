@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - ก้องกังวาล บุญมั่ง</title>
+    <style>
+        /* ตั้งค่าพื้นฐาน */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #e0f7ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .portfolio-card {
+            background-color: #fff;
+            width: 350px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* ส่วนหัว */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0080ff;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            color: #fff;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* ภาพโปรไฟล์ */
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #0080ff;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: bold;
+            color: #0080ff;
+        }
+
+        /* ข้อมูล */
+        .info-section {
+            margin-top: 20px;
+        }
+
+        .info-section h3 {
+            color: #ffc107;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+
+        .info-section p {
+            color: #333;
+            font-size: 0.9em;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        /* ไอคอนช่องทางการติดต่อ */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        .social-icons a:hover {
+            color: #0080ff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="portfolio-card">
+    <div class="header">PORTFOLIO</div>
+
+    <div class="profile">
+        <img src="C:\Users\CPE\Downloads\th.jpg" alt="Profile Image">
+        <div class="contact-info">ช่องทางติดต่อ</div>
+        
+        <div class="social-icons">
+            <a href="#" title="Phone">&#x1F4DE;</a>
+            <a href="#" title="Instagram">&#x1F4F7;</a>
+            <a href="#" title="Email">&#x2709;&#xFE0F;</a>
+            <a href="#" title="Line">&#x1F4AC;</a>
+        </div>
+    </div>
+
+    <div class="info-section">
+        <h3>ข้อมูลส่วนตัว</h3>
+        <p>ชื่อ: ก้องกังวาล นามสกุล: บุญมั่งชื่อเล่น: ปลื้ม</p>
+        <p>วัน24/เดือน06/ปีเกิด:2007  หมู่เลือด: A</p>
+        <p>เชื้อชาติ: ไทย สัญชาติ: ไทย ศาสนา: พุทธ</p>
+        <p>ที่อยู่: บ้านดอนสมอ</p>
+        <p>ลักษณะนิสัย:ดี </p>
+        <p>งานอดิเรก: เล่นเกม</p>
+        <p>ความสามารถพิเศษ: เล่นดนตรี</p>
+    </div>
+
+    <div class="info-section">
+        <h3>ข้อมูลครอบครัว</h3>
+        <p>บิดา: สมปองมารดา: สมหมาย</p>
+        <p>อาชีพ: รับจ้าง อาชีพ: ชาวนา</p>
+        <p>เบอร์โทรศัพท์: 0655589656 เบอร์โทรศัพท์:095568765 </p>
+    </div>
+</div>
+
+</body>
+</html>
